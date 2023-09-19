@@ -28,7 +28,7 @@ header div{
 .container{
     width: 100%;
     height: 80vh;
-	background: linear-gradient(45deg,#ffd500 1%,#FFFFFF 40%);
+	background: linear-gradient(45deg,#fff8d6 1%,#FFFFFF 100%);
 	border-radius: 20px;
 }
 
@@ -153,7 +153,8 @@ color:	#7A72FF;
 	color:#FFFFFF;
 	background-color: #6e64ff;
 	transition: all ease 0.5s;
-
+	font-size: 1.2rem;
+	width: 155px;
 } 
 
 .iconArea{
@@ -166,7 +167,7 @@ color:	#7A72FF;
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 	padding: 5px 0px;
 	z-index: 1;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 .iconArea a{
@@ -174,7 +175,7 @@ color:	#7A72FF;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 19px 14px;
 }
 
 
@@ -185,15 +186,18 @@ color:	#7A72FF;
 
 .iconArea a:hover .fa-facebook-f{
 	color: #0051ff;
+	font-size: 20px;
 }
 .iconArea a:hover .fa-twitter{
 	color: #00acee ;
+	font-size: 20px;
 }
 .iconArea a:hover .fa-instagram{
 	color:  #db24fffa ;
+	font-size: 20px;
 }
 .iconArea a:hover .fa-youtube{
- 
+    font-size: 20px;
 	color: 	#FF0000;
 }
 .home-box{
@@ -210,13 +214,17 @@ color:	#7A72FF;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 13px;
+	padding: 19px 12px;
 }
 .home-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .home-box a:hover .fa-home{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
+
 }
 .about-box{
     position:fixed;
@@ -232,13 +240,16 @@ color:	#7A72FF;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 19px 14px;
 }
 .about-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .about-box a:hover .fa-user{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
 .Portfolio-box{
     position:fixed;
@@ -254,36 +265,18 @@ color:	#7A72FF;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 19px 13px;
 }
 .Portfolio-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .Portfolio-box a:hover .fa-briefcase{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
-.Contact-box{
-    position:fixed;
-	right: 30px;
-	top: 50%;
-	transform: translateY(-50%);
-	border-radius: 20px;
-	background-color: #FFFFFF;
-	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
-	padding: 5px 0px;
-	z-index: 1;
-    display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 15px;
-}
-.Contact-box a i{
-        color:rgba(39,39,39,0.80);
-}
-.Contact-box a:hover .fa-envelope-open{
-	color: #5a52ff;
-}
+
 .Contact-box{
     position:fixed;
 	right: 30px;
@@ -298,13 +291,16 @@ color:	#7A72FF;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 19px 13px;
 }
 .Contact-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .Contact-box a:hover .fa-envelope-open{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
 .Blog-box{
     position:fixed;
@@ -320,13 +316,16 @@ color:	#7A72FF;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 13px;
+	padding: 19px 11px;
 }
 .Blog-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .Blog-box a:hover .fa-solid{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
 
 /*Footer start*/

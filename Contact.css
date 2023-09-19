@@ -98,7 +98,7 @@ header div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 .hf{
     width: 30%;
@@ -192,7 +192,7 @@ header div{
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 	padding: 5px 0px;
 	z-index: 1;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 .iconArea a{
@@ -200,8 +200,8 @@ header div{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
-    text-decoration: none;
+	padding: 19px 14px;
+	text-decoration: none;
 }
 
 
@@ -212,17 +212,29 @@ header div{
 
 .iconArea a:hover .fa-facebook-f{
 	color: #0051ff;
+	font-size: 20px;
 }
 .iconArea a:hover .fa-twitter{
 	color: #00acee ;
+	font-size: 20px;
 }
 .iconArea a:hover .fa-instagram{
 	color:  #db24fffa ;
+	font-size: 20px;
 }
 .iconArea a:hover .fa-youtube{
- 
+    font-size: 20px;
 	color: 	#FF0000;
 }
+/*Left icon End*/
+
+
+
+
+
+
+
+/*right icon Strt*/
 .home-box{
     position:fixed;
 	right: 30px;
@@ -237,23 +249,17 @@ header div{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 13px;
+	padding: 19px 12px;
 }
 .home-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .home-box a:hover .fa-home{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
-/*Left icon End*/
-
-
-
-
-
-
-
-/*right icon Strt*/
 .about-box{
     position:fixed;
 	right: 30px;
@@ -268,15 +274,17 @@ header div{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 19px 14px;
 }
 .about-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 
 .about-box a:hover .fa-user{
 	color: #5a52ff;
-   
+	font-size: 22px;
+	transition: .3s;
 }
 .Portfolio-box{
     position:fixed;
@@ -292,36 +300,18 @@ header div{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 19px 13px;
 }
 .Portfolio-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .Portfolio-box a:hover .fa-briefcase{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
-.Contact-box{
-    position:fixed;
-	right: 30px;
-	top: 50%;
-	transform: translateY(-50%);
-	border-radius: 20px;
-	background-color: #FFFFFF;
-	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
-	padding: 5px 0px;
-	z-index: 1;
-    display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 15px;
-}
-.Contact-box a i{
-        color:rgba(39,39,39,0.80);
-}
-.Contact-box a:hover .fa-envelope-open{
-	color: #5a52ff;
-}
+
 .Contact-box{
     position:fixed;
 	right: 30px;
@@ -336,13 +326,16 @@ header div{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 15px;
+	padding: 19px 13px;
 }
 .Contact-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .Contact-box a:hover .fa-envelope-open{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
 .Blog-box{
     position:fixed;
@@ -358,12 +351,15 @@ header div{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 13px;
+	padding: 19px 11px;
 }
 .Blog-box a i{
         color:rgba(39,39,39,0.80);
+		font-size: 20px;
 }
 .Blog-box a:hover .fa-solid{
 	color: #5a52ff;
+	font-size: 22px;
+	transition: .3s;
 }
 /*right icon End*/
