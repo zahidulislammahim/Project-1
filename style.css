@@ -224,7 +224,24 @@ color:	#7A72FF;
 	color: #5a52ff;
 	font-size: 22px;
 	transition: .3s;
-
+}
+.nv {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    background-color: #5a52ff;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 5px;
+    bottom: 26%;
+    left: -85%;
+    transform: translateX(-50%);
+    transition: opacity 0.6s, visibility 0.3s ;
+	transition-delay: .2s;
+}
+.home-box:hover .nv {
+    opacity: 1;
+    visibility: visible;
 }
 .about-box{
     position:fixed;
@@ -251,6 +268,10 @@ color:	#7A72FF;
 	font-size: 22px;
 	transition: .3s;
 }
+.about-box:hover .nv {
+    opacity: 1;
+    visibility: visible;
+}
 .Portfolio-box{
     position:fixed;
 	right: 30px;
@@ -276,7 +297,10 @@ color:	#7A72FF;
 	font-size: 22px;
 	transition: .3s;
 }
-
+.Portfolio-box:hover .nv {
+    opacity: 1;
+    visibility: visible;
+}
 .Contact-box{
     position:fixed;
 	right: 30px;
@@ -302,6 +326,10 @@ color:	#7A72FF;
 	font-size: 22px;
 	transition: .3s;
 }
+.Contact-box:hover .nv {
+    opacity: 1;
+    visibility: visible;
+}
 .Blog-box{
     position:fixed;
 	right: 30px;
@@ -326,6 +354,10 @@ color:	#7A72FF;
 	color: #5a52ff;
 	font-size: 22px;
 	transition: .3s;
+}
+.Blog-box:hover .nv {
+    opacity: 1;
+    visibility: visible;
 }
 
 /*Footer start*/
@@ -353,6 +385,7 @@ footer .foot .foot1 input{
 	outline: none;
 	border: none;
 	padding: 10px 120px 10px 10px;
+	border-radius: 25px
 }
 footer .foot .foot1 button{
 	font-size: 15px;
@@ -362,6 +395,7 @@ footer .foot .foot1 button{
 	border: none;
 	cursor: pointer;
 	padding: 10px 15px;
+	border-radius: 25px;
 }
 footer .foot .foot2 i{
 	font-size: 20px;
@@ -375,10 +409,29 @@ footer .foot .foot2{
 	padding-left: 30px;
 }
 
-
 /*Footer End*/
 
 
+
+body{
+    animation: fadeIn 0.9s  ease; 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(50px);
+    }
+	100% {
+        opacity: 2;
+        transform: translateY(0px);
+    }
+
+}
 
 
 @media (max-width:768px){
