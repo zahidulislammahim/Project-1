@@ -27,7 +27,7 @@ header div{
 }
 .container{
     width: 100%;
-    height: 80vh;
+    height: 190vh;
 	background: linear-gradient(45deg,#fff8d6 1%,#FFFFFF 100%);
 	border-radius: 20px;
     font-family: sans-serif;
@@ -313,6 +313,82 @@ body{
 
 /* animation End*/
 
+
+/*Footer start*/
+footer{
+	background-color: #1f1f2e;
+	width: 100%;
+	height: 240px;
+	position: absolute;
+	color: white;
+	margin-top: 10px;
+}
+footer .foot{
+	width: 80%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+footer .foot .foot1 p{
+	color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foot1 input{
+	font-size: 15px;
+	outline: none;
+	border: none;
+	padding: 10px 120px 10px 10px;
+	border-radius: 25px
+}
+footer .foot .foot1 button{
+	font-size: 15px;
+	color: white;
+	background-color: #5a52ff;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 10px 15px;
+	border-radius: 25px;
+}
+footer .foot .foot2 i{
+	font-size: 20px;
+	padding: 2px 5px;
+	color: white;
+}
+footer .foot .foot2 i:hover{
+	color: #5a52ff;
+}
+footer .foot .foot2{
+	padding-left: 30px;
+}
+
+/*Footer End*/
+@media (max-width:768px){
+	footer{
+		width: 100%;
+		height: 65vh;
+		position: relative;
+		top: 30px;
+	}
+	
+	footer .foot{
+		display: block;
+		position: relative;
+		top: 70px;
+	}
+	
+	foot1 .bt{
+		width:80%;
+	}
+	footer .foot .foot1 input{
+		font-size: 15px;
+		outline: none;
+		border: none;
+		padding: 10px 80px 10px 10px;
+	}
+}
+
 /* start */
 .about{
     width: 100%;
@@ -422,7 +498,7 @@ hr{
 	position: absolute;
 	height: 150px;
 	text-align:center;
-	top:40%;
+	top:270px;
 	left:90%;
 	right:-30%;
 	transform: translate(-90%,-50%);
@@ -446,7 +522,7 @@ hr{
 	position: absolute;
 	height: 150px;
 	text-align:center;
-	top: 65%;
+	top: 440px;
 	left:90%;
 	right:-30%;
 	transform: translate(-90%,-50%);
@@ -464,4 +540,81 @@ hr{
 .scor{
 	font-size: 30px;
 	margin-bottom: 10px;
+}
+
+.box2:hover{
+	background-color: rgba(63, 63, 63, 0.5);
+	width: 210px;
+	height: 140px;
+	font-size: 22px;
+	transition: 0.5s;
+}
+
+.box1:hover{
+	background-color: rgba(63, 63, 63, 0.5);
+	width: 210px;
+	height: 140px;
+	font-size: 22px;
+	transition: 0.5s;
+}
+.about1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.8);
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.skills-container {
+	max-width: 750px;
+	height: 250px;
+	margin: 0 auto;
+}
+
+.skill {
+	margin-bottom: 10px;
+}
+
+.skill-name {
+	font-weight: bold;
+}
+
+.skill-bar {
+	width: 100%;
+	background-color: #d6c6e0;
+	height: 10px;
+	border-radius: 5px;
+}
+
+.skill-level {
+	height: 100%;
+	border-radius: 5px;
+	background-color: #5a52ff;
+}
+
+.resume-box{
+	width: 50%;
+	height: 80px;
+	font-family: sans-serif;
+	margin-left: -70px;
+	margin-top: 50px;
+
+}
+.resume-box ul li{
+	list-style: none;
+}
+.resume-box2{
+	width: 350px;
+	display: flex;
+	position: absolute;
+	right:10%;
+	height: 80px;
+	margin-top: -95px;
+	font-family: sans-serif;
+}
+.resume-box2 ul li{
+	list-style: none;
 }
