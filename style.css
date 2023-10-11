@@ -88,7 +88,7 @@ a{
 
 }
 .section1 img {
-    height: 480px;
+    height: 550px;
 	border-radius: 20px;
 	box-shadow: 2px 2px 30px #141414;
 	
@@ -229,7 +229,6 @@ color:#FFB400;
 	padding: 22px 17px;
 }
 .home-box a i{
-        /* color:rgba(39,39,39,0.80); */
 		color: #ffffff;
 		font-size: 20px;
 }
@@ -243,7 +242,7 @@ color:#FFB400;
     visibility: hidden;
     position: absolute;
     background-color: #FFB400;
-    color: #ffffff;
+    color: #000000;
 	font-family: sans-serif;
 	font-weight: 800;
     padding: 7px 10px;
@@ -259,7 +258,7 @@ color:#FFB400;
     visibility: hidden;
     position: absolute;
     background-color: #FFB400;
-    color: #ffffff;
+    color: #000000;
 	font-family: sans-serif;
 	font-weight: 800;
     padding: 7px 10px;
@@ -275,7 +274,7 @@ color:#FFB400;
     visibility: hidden;
     position: absolute;
     background-color: #FFB400;
-    color: #ffffff;
+    color: #000000;
 	font-family: sans-serif;
 	font-weight: 800;
     padding: 7px 10px;
@@ -370,7 +369,7 @@ color:#FFB400;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 17px 13px;
+	padding: 17px 14px;
 }
 .Contact-box a i{
         color:rgba(39,39,39,0.80);

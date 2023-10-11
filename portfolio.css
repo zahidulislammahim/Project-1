@@ -76,125 +76,6 @@ a{
 }
 /*Search End*/
 
-
-
-
-
-
-/* Contact Body Strt*/
-.Contact-nm{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-}
-.Contact-nm .nm{
-    color: #FFB400;
-}
-hr{
-	margin-top: 20px;
-	padding: 1px;
-	background-color: #FFB400;
-}
-.Contact{
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -10px;
-}
-.hf{
-	color: #ffffff;
-    width: 30%;
-    height: 400px;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-.spc{
-	color: #c1c1c1;
-}
-.hf i{
-    color:#FFB400;
-    height:45px ;
-    font-size: 30px;
-    padding-top: 10px;
-    padding-right: 8px;
-    
-}
-.fa .spn{
-	color: #c1c1c1;
-    padding-left: 40px;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-}
-.fa .fa-nm{
-    font-family: sans-serif;
-}
-
-.Row{
-    width: -70%;
-    height: 400px;
-    margin-top: 110px;
-    margin-right: 30px;
-    text-align: center;
-}
-
-.Row .row1 input{
-    font-size: 15px;
-    outline: none;
-	border: solid;
-    border-color: #FFB400;
-	background-color: #252525;
-    border-radius: 20px;
-    border-width: 1px;
-	padding: 10px 100px 10px 10px;
-}
-.Row .row2 input{
-    font-size: 15px;
-    outline: none;
-	border: solid;
-    border-color: #FFB400;
-	background-color: #252525;
-    border-radius: 20px;
-    border-width: 1px;
-	padding: 10px 415px 30px 10px;
-}
-.Row .row3 input{
-    font-size: 15px;
-    outline: none;
-	border: solid;
-    border-color: #FFB400;
-	background-color: #252525;
-    border-radius: 20px;
-    border-width: 1px;
-	padding: 10px 415px 170px 10px;
-}
-.Row button{
-    font-size: 20px;
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 30px;
-    background:#FFB400;
-    color: white
-}
-.Row button:hover{
-   background: rgba(255,180,0, 0.5);
-   transition: 1s;
-   padding: 10px 35px;
-}
-
-/*Contact Body End*/
-
-
-
-
-
-
 /*left icon Strt*/
 
 .iconArea{
@@ -364,7 +245,7 @@ hr{
 	top: 50%;
 	transform: translateY(-50%);
 	border-radius: 100px;
-	background-color: #ffdd8f;
+	background-color: #FFB400;
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 	padding: 5px 0px;
 	z-index: 1;
@@ -372,10 +253,10 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 17px 13px;
+	padding: 22px 18px;
 }
 .Portfolio-box a i{
-	    color:rgba(39,39,39,0.80);
+	    color:white;
 		font-size: 20px;
 }
 .Portfolio-box a:hover .fa-briefcase{
@@ -398,7 +279,7 @@ hr{
 	top: 62.5%;
 	transform: translateY(-50%);
 	border-radius: 100px;
-	background-color:#FFB400;
+	background-color:#ffdd8f;
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 	padding: 5px 0px;
 	z-index: 1;
@@ -406,10 +287,10 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 21px 18px;
+	padding: 17px 14px;
 }
 .Contact-box a i{
-        color:white;
+        color:rgba(39,39,39,0.80);
 		font-size: 20px;
 }
 .Contact-box a:hover .fa-envelope-open{
@@ -483,3 +364,21 @@ body{
 }
 
 /* animation End*/
+
+/* Star */
+.portfolio-nm{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+.portfolio-nm .nm{
+    color: #FFB400;
+}
+hr{
+	margin-top: 20px;
+	padding: 1px;
+	background-color: #FFB400;
+}
