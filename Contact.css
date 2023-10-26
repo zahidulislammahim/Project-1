@@ -11,7 +11,7 @@ header{
 	padding-top: 20px;
 }
 header div{
-	width: 100%;
+	width: 90%;
 	float: left;
 	padding-left: 75px;
 	padding-right: -20px;
@@ -41,13 +41,15 @@ header div{
 a{
    text-decoration: none;
 }
+
+
 /*Search Strt*/
 .SearchArea {
     position: fixed;
 	right: 90px;
 	top: 50px;
-	width:170px;
-	height: 45px;
+	width:200px;
+	height: 40px;
 	background-color: #ffd87c;
 	display: flex;
 	justify-content:center;
@@ -58,7 +60,7 @@ a{
 	z-index: 1;
 }
 .searchbox input{
-    width: 90px;
+    width: 150px;
 	height: 20px;
 	border: none;
 	outline: none;
@@ -75,6 +77,7 @@ a{
 	font-family: poppins;
 }
 /*Search End*/
+
 
 
 
@@ -105,6 +108,7 @@ hr{
     justify-content: space-between;
     align-items: center;
     margin-top: -10px;
+	margin-left: 40px;
 }
 .hf{
 	color: #ffffff;
@@ -115,11 +119,12 @@ hr{
 }
 .spc{
 	color: #c1c1c1;
+	font-size: 18px;
 }
 .hf i{
     color:#FFB400;
     height:45px ;
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 10px;
     padding-right: 8px;
     
@@ -133,45 +138,52 @@ hr{
 }
 .fa .fa-nm{
     font-family: sans-serif;
+	font-size: 20px;
 }
 
 .Row{
     width: -70%;
     height: 400px;
-    margin-top: 110px;
-    margin-right: 30px;
+    margin-top: 100px;
+    margin-right: 100px;
     text-align: center;
 }
 
 .Row .row1 input{
+	width: 297px;
     font-size: 15px;
     outline: none;
 	border: solid;
+	color: white;
     border-color: #FFB400;
 	background-color: #252525;
     border-radius: 20px;
     border-width: 1px;
-	padding: 10px 100px 10px 10px;
+	padding: 15px 20px 15px 20px;
 }
 .Row .row2 input{
+	width: 640px;
     font-size: 15px;
     outline: none;
 	border: solid;
+	color: white;
     border-color: #FFB400;
 	background-color: #252525;
     border-radius: 20px;
     border-width: 1px;
-	padding: 10px 415px 30px 10px;
+	padding: 15px 20px 50px 20px;
 }
 .Row .row3 input{
+	width: 640px;
     font-size: 15px;
     outline: none;
 	border: solid;
+	color: white;
     border-color: #FFB400;
 	background-color: #252525;
     border-radius: 20px;
     border-width: 1px;
-	padding: 10px 415px 170px 10px;
+	padding: 20px 20px 190px 20px;
 }
 .Row button{
     font-size: 20px;
@@ -183,7 +195,7 @@ hr{
     color: white
 }
 .Row button:hover{
-   background: rgba(255,180,0, 0.5);
+	color: black;
    transition: 1s;
    padding: 10px 35px;
 }
@@ -205,7 +217,7 @@ hr{
 	border-radius: 50px;
 	background-color: #ffc847;
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
-	padding: 5px 0px;
+	padding: 5px 5px;
 	z-index: 1;
 	font-size: 19px;
 }
@@ -245,6 +257,7 @@ hr{
 }
 /*Left icon End*/
 
+
 /*right icon Strt*/
 .home-box{
     position:fixed;
@@ -254,21 +267,20 @@ hr{
 	border-radius: 100px;
 	background-color:#ffdd8f;
 	box-shadow: 2px 2px 30px rgb(255, 255, 255,);
-	padding: 5px  0px;
 	z-index: 1;
     display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 17px 12px;
+	padding: 16px 16px;
 }
 .home-box a i{
 	    color:rgba(39,39,39,0.80);
-		font-size: 20px;
+		font-size: 25px;
 }
 .home-box a:hover .fa-home{
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 35px;
 	transition: .3s;
 }
 .nv {
@@ -319,12 +331,13 @@ hr{
     transition: opacity 0.6s, visibility 0.3s ;
 	transition-delay: .2s;
 }
+.home-box:hover{
+	background: #FFB400;
+}
+
 .home-box:hover .nv {
     opacity: 1;
     visibility: visible;
-}
-.home-box:hover{
-	background: #FFB400;
 }
 .about-box{
     position:fixed;
@@ -340,15 +353,15 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 16px 14px;
+	padding: 16px 19px;
 }
 .about-box a i{
      	color:rgba(39,39,39,0.80);
-		font-size: 20px;
+		font-size: 25px;
 }
 .about-box a:hover .fa-user{
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 35px;
 	transition: .3s;
 }
 .about-box:hover{
@@ -372,15 +385,15 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 17px 13px;
+	padding: 16px 18px;
 }
 .Portfolio-box a i{
 	    color:rgba(39,39,39,0.80);
-		font-size: 20px;
+		font-size: 24px;
 }
 .Portfolio-box a:hover .fa-briefcase{
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 33px;
 	transition: .3s;
 }
 .Portfolio-box:hover{
@@ -398,7 +411,7 @@ hr{
 	top: 62.5%;
 	transform: translateY(-50%);
 	border-radius: 100px;
-	background-color:#FFB400;
+	background-color: #FFB400;
 	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 	padding: 5px 0px;
 	z-index: 1;
@@ -406,15 +419,15 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 21px 18px;
+	padding: 16px 17px;
 }
 .Contact-box a i{
-        color:white;
-		font-size: 20px;
+	    color: #ffffff;;
+		font-size: 34px;
 }
 .Contact-box a:hover .fa-envelope-open{
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 34px;
 	transition: .3s;
 }
 .Contact-box:hover{
@@ -440,15 +453,15 @@ hr{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 16px 11px;
+	padding: 16px 15px;
 }
 .Blog-box a i{
         color:rgba(39,39,39,0.80);
-		font-size: 20px;
+		font-size: 25px;
 }
 .Blog-box a:hover .fa-solid{
 	color: #ffffff;
-	font-size: 22px;
+	font-size: 32px;
 	transition: .3s;
 }
 .Blog-box:hover{
@@ -483,3 +496,63 @@ body{
 }
 
 /* animation End*/
+
+
+/*Footer start*/
+footer{
+	background-color: #1f1f2e;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	color: white;
+	margin-top: 25px;
+}
+footer .foot{
+	width: 85%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+footer .foot .foot1 p{
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 15px;
+}
+footer .foot .foot1 input{
+	width: 200px;
+	font-size: 13px;
+	outline: none;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 25px
+}
+footer .foot .foot1 button{
+	font-size: 15px;
+	color: white;
+	background-color: #FFB400;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 9px 15px;
+	border-radius: 25px;
+}
+footer .foot .foot1 button:hover{
+	color: black;
+	transition: 1s;
+}
+
+footer .foot .foot2 i{
+	font-size: 18px;
+	padding: 2px 4px;
+	color: white;
+}
+footer .foot .foot2 i:hover{
+	color: #FFB400;
+}
+footer .foot .foot2{
+	padding-left: 20px;
+}
+
+/*Footer End*/
